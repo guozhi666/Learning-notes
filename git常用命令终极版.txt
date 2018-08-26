@@ -1,0 +1,90 @@
+第一步：git init        (在本地创建一个数据库，只有创建好数据库才可以上传到github)
+	同时在GitHub上创建项目，项目名字最好跟本地的文件夹名字一样
+
+第二步：git status      (查看本地仓库的保存状况，就是查看修改了那些文件或文件夹)
+
+第三步：git add         文件名或这文件夹名（把此文件夹或者文件保存到暂存区）
+        git add -A        (把此文件下的所有改动添加到暂存区)
+
+第四步：git commit -m "这里面随便输入，最好有标记性，这样如果你想放弃之前的修改直接版本回退到这个地方"
+
+第五步：git remote add origin git@github.com:guozhi666/项目全名.git    (绑定远程数据库中的项目)
+	如果有错误： git remote rm origin   如果远程库有“README”文档而本地没有，操作：git pull --rebase origin master
+
+
+
+第六步：git push -u origin master (新项目第一次上传到github)  
+        git push origin master    (从第二次开始上传直接用这个代码)
+
+
+
+hexo 命令
+
+hexo server     localhost：4000查看
+
+hexo new ****    新建项目
+
+
+发布步骤：
+
+hexo clean
+
+hexo generate     
+
+hexo deploy
+
+
+
+sql
+
+net start mysql  启动服务器
+net stop mysql  停止服务器
+mysql -u root -p  进入用户服务器
+
+
+virtualenv命令
+
+virtualenv venv  创建venv环境
+venv\scripts\activate.bat  启动虚拟环境
+.\scripts\deactivat.bat  关闭虚拟环境
+pip freeze       查看所安装的包
+
+
+pipenv使用方法
+
+pip install pipenv  全局下载pipenv
+pipenv install	    项目下载pipenv
+pip shell    进入虚拟环境
+exit      退出虚拟环境
+pipenv uninstall   卸载
+pipenv graph   查看依赖的包
+pipenv --venv   查看虚拟环境所在位置
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
