@@ -44,9 +44,10 @@ mysql -u root -p  进入用户服务器
 
 virtualenv命令
 
+python -m venv myvenv  创建虚拟环境
 virtualenv venv  创建venv环境
 venv\scripts\activate.bat  启动虚拟环境
-.\scripts\deactivat.bat  关闭虚拟环境
+deactivate      关闭虚拟环境
 pip freeze       查看所安装的包
 
 
