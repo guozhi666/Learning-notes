@@ -62,6 +62,13 @@ pipenv graph   查看依赖的包
 pipenv --venv   查看虚拟环境所在位置
 
 
+引用jQuery  bootstrap 模板
+<script src="http://cdn.bootcss.com/jquery/2.2.4/jquey.min.js"></script>
+    <link rel="stylesheet" href="http://cdn.bootcss.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="stylesheet" href="http://cdn.bootcss.com/font-awesome/4.6.3/css/font-awesome.min.css">
+    <script src="http://cdn.bootcss.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+
 
 
 
